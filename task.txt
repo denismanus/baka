@@ -1,0 +1,44 @@
+﻿
+
+https://kazupon.github.io/vue-i18n/en/started.html
+
+
+28. Отрефакторить свой код и добавить конструкции try catch
+
+
+29. Сделать отдельный метод регистрации и авторизации
+
+30. Метод получения всех пользователей и всех iot через get /users /iot
+
+31. Метод получения данных пользователя /user/id
+
+32. Освоить jwt token
+
+33. Посмотреть все видео по rest у того индуса
+
+34. Прочитать про callback
+
+https://medium.com/@allenhwkim/multiple-language-with-nuxt-vuejs-efc3dad45eac возможно тут еще
+
+Не забывай про http://mongoosejs.com/docs/populate.html
+.............................................
+
+http://localhost:64852/api/userEmail/ post запрос, в теле указываешь iot: shortKey -  короткий айдишник твоего iot
+
+26. Определить отдельный файл для маршрута
+
+
+andWDclassic = function(n){  // [ 5 ] random words and digits by the wocabulary
+  var s ='', abd ='abcdefghijklmnopqrstuvwxyz0123456789', aL = abd.length;
+  while(s.length < n)
+    s += abd[Math.random() * aL|0];
+  return s;
+}
+// app.post("/signup",userController.signUp);
+// app.post("/signin",userController.signIn);
+
+// app.post("/iot",iotController.addDevice);
+
+// app.get("/user/:user",userController.getUserIots);
+// app.post("/:user",userController.addIotToUser);
+// app.get("/:user",iotController.getAllIots);
